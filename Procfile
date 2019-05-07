@@ -1,0 +1,1 @@
+web: gunicorn lucilia.wsgi --log-file -
