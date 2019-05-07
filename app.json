@@ -1,0 +1,16 @@
+
+{
+    "name": "Alfabetização Lucilia",
+    "description": "Método educacional de ensino e alfabetização",
+    "image": "heroku/python",
+    "repository": "https://github.com/leonardocintra/lucilia",
+    "keywords": ["python", "django" ],
+    "addons": [ "heroku-postgresql" ],
+    "environments": {
+      "test": {
+        "scripts": {
+          "test-setup": "python manage.py collectstatic --noinput"
+        }
+      }
+    }
+  }
