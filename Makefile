@@ -1,5 +1,7 @@
 install-dev:
 	@pip install -r requirements/development.txt
+	@python manage.py makemigrations
+	@python manage.py migrate
 
 run:
 	@python manage.py runserver
