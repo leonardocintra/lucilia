@@ -8,3 +8,11 @@ class IndexView(TemplateView):
 
 class PricingView(TemplateView):
     template_name = "core/pricing.html"
+
+
+class ManagementView(TemplateView):
+    template_name = "core/management.html"
+
+
+class MetodoVivencialView(TemplateView):
+    template_name = "core/metodo_vivencial.html"
